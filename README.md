@@ -100,8 +100,6 @@
 
 <div style="text-align: center;">
   <p align="justify"> 
-  <h2>Feature Engineering</h2>
-
 <ol>
   <li><strong>Feature Selection:</strong> We performed feature selection to choose the most relevant features for our analysis.</li>
   <li><strong>Creation of New Features:</strong> We created new features from the existing dataset to enhance predictive power.</li>
@@ -123,23 +121,45 @@
 <h3>Feature Selection using Mutual Information (MI)</h3>
 <p>We computed mutual information between features and the target variable to identify top-ranked features for model training.</p>
 
-<p>After conducting comprehensive feature engineering, our dataset <code>comp_df</code> has undergone significant transformations. Initially containing 11 columns consisting of 3 categorical variables and 8 numerical variables, it has now expanded to encompass 32 columns while maintaining its original 4682 rows. All variables within <code>comp_df</code> have been converted to numerical format, making them suitable for analytical operations. Our DataFrame is ready to embark on the next phase of model construction with confidence.</p>
-
-    
+<p>After conducting comprehensive feature engineering, our dataset <code>comp_df</code> has undergone significant transformations. Initially containing 11 columns consisting of 3 categorical variables and 8 numerical variables, it has now expanded to encompass 32 columns while maintaining its original 4682 rows. All variables within <code>comp_df</code> have been converted to numerical format, making them suitable for analytical operations. Our DataFrame is ready to embark on the next phase of model construction with confidence.</p>  
 </div>
 
 # Model Building {#model-building}
 
 <div style="text-align: center;">
   <p align="justify"> 
-    
+
+<p>Leading up to the Feature Engineering phase, individual interns diligently prepared their datasets to model startup acquisition statuses. After thorough experimentation and evaluation, three standout models emerged for collaborative refinement by the team.</p>
+
+<p>In the capacity of TEAM C lead, I assumed responsibility for overseeing subsequent tasks until deployment. Initially, our team received directives to explore various models for both binary and multiclass classification:</p>
+<ul>
+  <li><strong>For Binary Classification:</strong>
+    <ul>
+      <li>We explored Decision Trees.</li>
+      <li>We delved into the intricacies of Support Vector Machines (SVM).</li>
+    </ul>
+  </li>
+  <li><strong>For Multiclass Classification:</strong>
+    <ul>
+      <li>We investigated the applicability of Multinomial Naive Bayes.</li>
+      <li>We explored the potentials of Gradient Boosting.</li>
+      <li>We considered the robustness of Random Forest.</li>
+      <li>We examined the effectiveness of XGBoost.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Following exhaustive analysis and collective deliberation, we meticulously selected one model each for binary and multiclass classification. Our choices, prioritizing accuracy, were SVM for binary classification and XGBoost for multiclass classification.</p>
+
+<h3>Model Evaluation</h3>
+<p>Each model underwent comprehensive evaluation, scrutinizing metrics such as accuracy, precision, recall, and F1-score. This evaluation process resulted in the creation of a detailed classification report for further analysis and refinement.</p>
+
 </div>
 
 # Machine Learning Pipelines Building {#ml-pipelines}
 
 <div style="text-align: center;">
   <p align="justify"> 
-    <h2>For More Information</h2>
 
 <ol>
   <li>
@@ -176,7 +196,8 @@
     <p>After constructing the combined pipeline, extensive testing will be conducted to validate its functionality and accuracy. We will employ various evaluation metrics to assess the performance of the pipeline, ensuring that it reliably predicts startup statuses.</p>
   </li>
 </ol>
-
+<img src="![image](https://github.com/AdilAhmedunar/Internship_Project_on_Machine_Learning_Pipelines/assets/38765754/d6e92d47-2c50-414e-8c62-cf4b64d10790)
+">
 </div>
 
 # Deployment of Project {#deployment}
