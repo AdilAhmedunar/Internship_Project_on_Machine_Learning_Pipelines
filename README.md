@@ -21,6 +21,7 @@
 | [Contribution](#contribution)                         | Individual contributions to the project   |
 
 # Project Description {:#project-description}
+
 <div style="text-align: center;">
   <p align="justify">
     The project aims to predict the acquisition status of startups based on various features such as funding rounds, total funding amount, industry category, and geographic location. The objective is to develop a machine learning model that accurately classifies startups into different acquisition status categories, including Operating, IPO, Acquired, or closed. This problem will be addressed using a Supervised Machine Learning approach by training a model based on the historical data of startups that were either acquired or closed. By leveraging machine learning pipelines, we preprocess the data, select relevant features, and train models to classify startups into different acquisition status categories. The project utilizes Python libraries such as scikit-learn, pandas, matplotlib, seaborn, joblib, and XGBoost for model development and evaluation. The goal is to provide insights into the factors influencing startup acquisition and build a predictive tool that can assist stakeholders in making informed decisions.
@@ -50,15 +51,49 @@
 # Data Preprocessing {#data-preprocessing}
 
 <div style="text-align: center;">
-  <p align="justify"> 
-    
+  <p align="justify">
+<p>The <strong>data preprocessing</strong> phase involved several steps, including:</p>
+
+<ul>
+  <li>Deleted columns providing excessive granularity such as <strong>'region', 'city', 'state_code'</strong></li>
+  <li>Removed redundant columns such as <strong>'id', 'Unnamed: 0.1', 'entity_type'</strong></li>
+  <li>Eliminated irrelevant features such as <strong>'domain', 'homepage_url', 'twitter_username', 'logo_url'</strong></li>
+  <li>Handled duplicate values</li>
+  <li>Removed columns with high null values</li>
+  <li>Dropped instances with missing values such as <strong>'status', 'country_code', 'category_code', 'founded_at'</strong></li>
+  <li>Dropped time-based columns such as <strong>'first_investment_at', 'last_investment_at', 'first_funding_at'</strong></li>
+  <li>Imputed missing values using mean() and mode() methods in numerical columns and categorical columns accordingly such as <strong>'milestones', 'relationships', 'lat', 'lng'</strong></li>
+</ul>
+
+<p>After preprocessing, the DataFrame has the following information:</p>
+
+<ul>
+  <li>Total columns: <strong>11</strong></li>
+  <li>Non-Null Count: <strong>63585</strong></li>
+  <li>Data types: <strong>float64(7), object(4)</strong></li>
+  <li>Memory usage: <strong>7.8 MB</strong></li>
+</ul>
+
 </div>
 
 # Exploratory Data Analysis (EDA) {#eda}
 
 <div style="text-align: center;">
   <p align="justify"> 
-    
+    <h3>Univariate & Bivariate Analysis</h3>
+
+<p>The <strong>Univaraite & Bivariate Analysis</strong> phases involved exploring relationships between variables in the dataset. Key visualizations and analyses conducted during this phase include:</p>
+
+<ol>
+  <li>Visualization of the distribution of the <strong>Status</strong> column, which is the target variable, using a horizontal bar plot.</li>
+  <li>Visualization of the distribution of <strong>Milestones</strong> using a histogram.</li>
+  <li>Exploring the relationship between <strong>Status</strong> and <strong>Milestones</strong> using a violin plot.</li>
+  <li>Visualization of the average funding amount by <strong>Status</strong> using a bar chart.</li>
+  <li>Exploring the relationship between <strong>Status</strong> and <strong>Funding Total (USD)</strong> using a violin plot.</li>
+</ol>
+
+<p>These visualizations provide insights into how different variables interact with each other and their potential impact on the target variable.</p>
+
 </div>
 
 # Feature Engineering (FE) {#feature-engineering}
