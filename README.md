@@ -4,25 +4,23 @@
  My project aims to analyze the financial circumstances of companies and their fundraising objectives.
 
  <div style="text-align: center;">
-  <h2>Table of Contents</h2>
+  <h1>Table of Contents</h1>
  </div>
 
-# Table of Contents
+| Section                                               | Description                               |
+|-------------------------------------------------------|-------------------------------------------|
+| [Project Description](#project-description)           | Overview of the project                   |
+| [Dataset](#dataset)                                   | Description of the dataset used           |
+| [Data Preprocessing](#data-preprocessing)             | Steps taken to preprocess the data        |
+| [Exploratory Data Analysis (EDA)](#eda)               | Exploration and analysis of the data      |
+| [Feature Engineering (FE)](#feature-engineering)      | Techniques used to create new features    |
+| [Model Building](#model-building)                     | Details about building the model          |
+| [Machine Learning Pipelines Building](#ml-pipelines)  | Development of ML pipelines               |
+| [Deployment of Project](#deployment)                  | Process of deploying the project          |
+| [Django](#django)                                     | Introduction to Django framework          |
+| [Contribution](#contribution)                         | Individual contributions to the project   |
 
-| Section                              | Description                              |
-|--------------------------------------|------------------------------------------|
-| [Project Description](#project-description) | Overview of the project                   |
-| [Dataset](#dataset)                         | Description of the dataset used           |
-| [Data Preprocessing](#data-preprocessing)   | Steps taken to preprocess the data        |
-| [Exploratory Data Analysis (EDA)](#eda)     | Exploration and analysis of the data      |
-| [Feature Engineering (FE)](#feature-engineering) | Techniques used to create new features    |
-| [Model Building](#model-building)            | Details about building the model          |
-| [Machine Learning Pipelines Building](#ml-pipelines) | Development of ML pipelines                |
-| [Deployment of Project](#deployment)        | Process of deploying the project          |
-| [Django](#django)                           | Introduction to Django framework          |
-| [Contribution](#contribution)               | Individual contributions to the project   |
-
-## Project Description {:#project-description}
+# Project Description {:#project-description}
 <div style="text-align: center;">
   <p align="justify"> This project aims to develop a machine learning model for predicting the acquisition status of startups based on various features such as funding rounds, total funding amount, industry category, and 
     geographic location. By leveraging machine learning pipelines, we preprocess the data, select relevant features, and train models to classify startups into different acquisition status categories. The project utilizes 
