@@ -139,7 +139,44 @@
 
 <div style="text-align: center;">
   <p align="justify"> 
-    
+    <h2>For More Information</h2>
+
+<ol>
+  <li>
+    <h3>Binary Classification Model:</h3>
+    <p>We have developed a binary classification model using Random Forest. This model predicts whether a startup will be acquired or not. It analyzes various features of the startup and determines the likelihood of acquisition.</p>
+  </li>
+
+  <li>
+    <h3>Multiclass Classification Model:</h3>
+    <p>Similarly, we have constructed a multiclass classification model using an XGBoost classifier. Unlike the binary model, this classifier predicts multiple classes of startup status: Operating, IPO, Acquired, or Closed. It evaluates various factors to categorize startups into these different status categories.</p>
+  </li>
+
+  <li>
+    <h3>Combining Pipelines:</h3>
+    <p>Our primary objective is to create three distinct pipelines:</p>
+    <ol type="a">
+      <li>
+        <strong>Binary Classification Pipeline:</strong>
+        <p>This pipeline will encapsulate the process of preparing data, training the Random Forest model, and making predictions on whether a startup will be acquired.</p>
+      </li>
+      <li>
+        <strong>Multiclass Classification Pipeline:</strong>
+        <p>Similarly, this pipeline will handle data preparation, model training using XGBoost, and predicting the status of startups (Operating, IPO, Acquired, or Closed).</p>
+      </li>
+      <li>
+        <strong>Combined Pipeline:</strong>
+        <p>The challenge lies in integrating these two models into a single pipeline. We must ensure that the output of the binary classifier is appropriately transformed to serve as input for the multiclass classifier. This combined pipeline will enable us to efficiently predict startup statuses.</p>
+      </li>
+    </ol>
+  </li>
+
+  <li>
+    <h3>Testing and Evaluation:</h3>
+    <p>After constructing the combined pipeline, extensive testing will be conducted to validate its functionality and accuracy. We will employ various evaluation metrics to assess the performance of the pipeline, ensuring that it reliably predicts startup statuses.</p>
+  </li>
+</ol>
+
 </div>
 
 # Deployment of Project {#deployment}
