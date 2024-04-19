@@ -1,7 +1,7 @@
 <div style="text-align: center;">
   <h1>Startup Acquisition Status Modeling Using Machine Learning Pipelines</h1>
 </div>
- My project aims to analyze the financial circumstances of companies and their fundraising objectives.
+ Our project aims to analyze the financial circumstances of companies and their fundraising objectives.
 
  <div style="text-align: center;">
   <h1>Table of Contents</h1>
@@ -100,6 +100,31 @@
 
 <div style="text-align: center;">
   <p align="justify"> 
+  <h2>Feature Engineering</h2>
+
+<ol>
+  <li><strong>Feature Selection:</strong> We performed feature selection to choose the most relevant features for our analysis.</li>
+  <li><strong>Creation of New Features:</strong> We created new features from the existing dataset to enhance predictive power.</li>
+  <li><strong>Normalization and Scaling:</strong> We normalized and scaled numerical features to ensure consistency and comparability.</li>
+  <li><strong>Encoding Categorical Variables:</strong> We encoded categorical variables to represent them numerically for model training.</li>
+  <li><strong>Feature Engineering Documentation:</strong> We documented the entire feature engineering process for transparency and reproducibility.</li>
+</ol>
+
+<h3>Creation of New Features from Dataset</h3>
+<p>We conducted various operations to create new features:</p>
+<ul>
+  <li>Converted the 'founded_at' column to datetime format and extracted the year.</li>
+  <li>Mapped status values to isClosed values and created a new column.</li>
+  <li>Performed Min-Max scaling on selected numerical features.</li>
+  <li>Applied one-hot encoding to 'country_code' and 'category_code' columns.</li>
+  <li>Label encoded the 'status' column for binary classification.</li>
+</ul>
+
+<h3>Feature Selection using Mutual Information (MI)</h3>
+<p>We computed mutual information between features and the target variable to identify top-ranked features for model training.</p>
+
+<p>After conducting comprehensive feature engineering, our dataset <code>comp_df</code> has undergone significant transformations. Initially containing 11 columns consisting of 3 categorical variables and 8 numerical variables, it has now expanded to encompass 32 columns while maintaining its original 4682 rows. All variables within <code>comp_df</code> have been converted to numerical format, making them suitable for analytical operations. Our DataFrame is ready to embark on the next phase of model construction with confidence.</p>
+
     
 </div>
 
