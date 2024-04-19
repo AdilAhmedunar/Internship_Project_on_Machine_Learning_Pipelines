@@ -196,6 +196,10 @@
     <p>After constructing the combined pipeline, extensive testing will be conducted to validate its functionality and accuracy. We will employ various evaluation metrics to assess the performance of the pipeline, ensuring that it reliably predicts startup statuses.</p>
   </li>
 </ol>
+<div style="text-align: center;">
+    <img src="https://github.com/AdilAhmedunar/Internship_Project_on_Machine_Learning_Pipelines/assets/38765754/d6e92d47-2c50-414e-8c62-cf4b64d10790">
+</div>
+
 
 </div>
 
