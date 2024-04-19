@@ -3,6 +3,22 @@
 </div>
  My project aims to analyze the financial circumstances of companies and their fundraising objectives.
 
+ <div style="text-align: center;">
+  <h2>Table of Contents</h2>
+ </div>
+
+| Section                | Description                        |
+|------------------------|------------------------------------|
+| Introduction           | Overview of the project            |
+| Dataset                | Description of the dataset used    |
+| Data Preprocessing     | Steps taken to preprocess the data |
+| Model Building         | Details about building the model   |
+| Evaluation             | Evaluation metrics and results     |
+| Conclusion             | Summary and conclusion             |
+| Future Work            | Potential future enhancements      |
+
+
+
 ## Project Description
 <div style="text-align: center;">
   <p align="justify"> This project aims to develop a machine learning model for predicting the acquisition status of startups based on various features such as funding rounds, total funding amount, industry category, and 
