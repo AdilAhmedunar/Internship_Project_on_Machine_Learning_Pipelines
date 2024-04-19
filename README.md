@@ -22,7 +22,7 @@
 | [Django](#django)                           | Introduction to Django framework          |
 | [Contribution](#contribution)               | Individual contributions to the project   |
 
-## Project Description {#project-description}
+## Project Description {:#project-description}
 <div style="text-align: center;">
   <p align="justify"> This project aims to develop a machine learning model for predicting the acquisition status of startups based on various features such as funding rounds, total funding amount, industry category, and 
     geographic location. By leveraging machine learning pipelines, we preprocess the data, select relevant features, and train models to classify startups into different acquisition status categories. The project utilizes 
