@@ -212,9 +212,12 @@ Through the effective implementation of Agile practices, we were able to deliver
 Our deployed project leverages Django, a high-level web framework for Python, to provide a user-friendly interface for interacting with our machine-learning model. Users can now make predictions using the model through a web application, without needing to write any code.
 
 With this deployment, we aim to democratize access to machine learning technology, empowering users from various backgrounds to harness the power of predictive analytics for their specific use cases. We have ensured that our deployed project is robust, scalable, and secure, providing a seamless experience for users while maintaining data privacy and integrity.
-
-Thank you for joining us on this journey from development to deployment. We're excited to see how our project will impact the world of machine learning and beyond.
 </div>
+
+<div style="align: center;">
+    <img src="Deployement Mood.JPG ">
+</div>
+Thank you for joining us on this journey from development to deployment. We're excited to see how our project will impact the world of machine learning and beyond.
 
 # Contributions of the Team 
 <div style="text-align: center;">
