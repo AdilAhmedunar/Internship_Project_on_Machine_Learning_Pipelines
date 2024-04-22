@@ -227,57 +227,48 @@ Thank you for joining us on this journey from development to deployment. We're e
         <th>Name</th>
         <th>Assigned Models</th>
         <th>Contribution</th>
-        <th>Report</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Adil Ahmed Unar</td>
         <td>Decision Trees (Binary) and XGBoost (Multiclass)</td>
-        <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
-        <td>Yes</td>
+        <td>Data Preprocessing, EDA, Feature Engineering, Model Training, Model Deployment, Report</td>
       </tr>
       <tr>
         <td>Ashrith Komuravelly</td>
         <td>Decision Trees (Binary) and Random Forest (Multiclass)</td>
         <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
-        <td>No</td>
       </tr>
       <tr>
         <td>B Kartheek</td>
         <td>Decision Trees (Binary) and Multinomial Naïve Bayes (Multiclass)</td>
         <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
-        <td>No</td>
       </tr>
       <tr>
         <td>Charulatha</td>
         <td>Support Vector Machines (Binary) and Gradient Boosting (Multiclass)</td>
         <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
-        <td>No</td>
       </tr>
       <tr>
         <td>Mayuri Sonawane</td>
         <td>Support Vector Machines (Binary) and Random Forest (Multiclass)</td>
         <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
-        <td>No</td>
       </tr>
       <tr>
         <td>Pratik Santosh Akole</td>
         <td>Decision Trees (Binary) and XGBoost (Multiclass)</td>
         <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
-        <td>No</td>
       </tr>
       <tr>
         <td>Shata Rupendra</td>
         <td>Support Vector Machines (Binary) and Gradient Boosting (Multiclass)</td>
         <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
-        <td>No</td>
       </tr>
       <tr>
         <td>Vaibhavi Vijay</td>
         <td>Support Vector Machines (Binary) and Multinomial Naïve Bayes (Multiclass)</td>
         <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
-        <td>No</td>
       </tr>
     </tbody>
   </table>
