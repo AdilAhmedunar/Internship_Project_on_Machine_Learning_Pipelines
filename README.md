@@ -221,7 +221,7 @@
 </div>
 </div>
 
-# Deployment of Project - Django{#deployment}
+# Deployment of Project - Django {#deployment}
 
 <div style="text-align: center;">
   <p align="justify"> 
