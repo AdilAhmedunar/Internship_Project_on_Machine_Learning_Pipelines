@@ -2,23 +2,7 @@
 </div>
  Our project aims to analyze the financial circumstances of companies and their fundraising objectives.
 
-<div style="text-align: center;">
-  <h1>Table of Contents</h1>
- </div>
-
-| Section                                               | Description                               |
-|-------------------------------------------------------|-------------------------------------------|
-| [Project Description](#project-description)           | Overview of the project                   |
-| [Dataset](#dataset)                                   | Description of the dataset used           |
-| [Data Preprocessing](#data-preprocessing)             | Steps taken to preprocess the data        |
-| [Exploratory Data Analysis (EDA)](#eda)               | Exploration and analysis of the data      |
-| [Feature Engineering (FE)](#feature-engineering)      | Techniques used to create new features    |
-| [Model Building](#model-building)                     | Details about building the model          |
-| [Machine Learning Pipelines Building](#ml-pipelines)  | Development of ML pipelines               |
-| [Deployment of Project](#deployment)                  | Process of deploying the project          |
-| [Contribution](#contribution)                         | Individual contributions to the project   |
-
-# Project Description {#project-description}
+# Project Description
 
 <div style="text-align: center;">
   <p align="justify">
@@ -26,7 +10,7 @@
 </div>
 
 
-# Dataset {#dataset}
+# Dataset
 
 <div style="text-align: center;">
   <p align="justify">
@@ -51,7 +35,7 @@
     <img src="Dataset.JPG ">
 </div>
 
-# Data Preprocessing {#data-preprocessing}
+# Data Preprocessing 
 
 <div style="text-align: center;">
   <p align="justify">
@@ -83,7 +67,7 @@
 </div>
 
 
-# Exploratory Data Analysis (EDA) {#eda}
+# Exploratory Data Analysis (EDA)
 
 <div style="text-align: center;">
   <p align="justify"> 
@@ -109,7 +93,7 @@
 
 </div>
 
-# Feature Engineering (FE) {#feature-engineering}
+# Feature Engineering (FE) 
 
 <div style="text-align: center;">
   <p align="justify"> 
@@ -134,14 +118,14 @@
 <h3>Feature Selection using Mutual Information (MI)</h3>
 <p>We computed mutual information between features and the target variable to identify top-ranked features for model training.</p>
 
-<p>After conducting comprehensive feature engineering, our dataset <code>comp_df</code> has undergone significant transformations. Initially containing 11 columns consisting of 3 categorical variables and 8 numerical variables, it has now expanded to encompass 32 columns while maintaining its original 4682 rows. All variables within <code>comp_df</code> have been converted to numerical format, making them suitable for analytical operations. Our DataFrame is ready to embark on the next phase of model construction with confidence.</p>  
+<p>After conducting comprehensive feature engineering, our dataset <code>comp_df</code> has undergone significant transformations. Initially containing 11 columns consisting of 3 categorical variables and 8 numerical variables, it has now expanded to encompass 32 columns while maintaining its original 4682 rows. All variables within <code>comp_df</code> have been converted to numerical format, making them suitable for analytical operations. Our data frame is ready to embark on the next phase of model construction with confidence.</p>  
 </div>
 
 <div style="align: center;">
     <img src="FE.JPG ">
 </div>
 
-# Model Building {#model-building}
+# Model Building 
 
 <div style="text-align: center;">
   <p align="justify"> 
@@ -173,8 +157,7 @@
 
 </div>
 
-# Machine Learning Pipelines Building {#ml-pipelines}
-
+# Machine Learning Pipelines Building 
 <div style="text-align: center;">
   <p align="justify"> 
 
@@ -220,11 +203,11 @@
 </div>
 </div>
 
-# Deployment of Project - Django {#deployment}
+# Deployment of Project - Django 
 
 <div style="text-align: center;">
   <p align="justify"> 
-  Our deployed project leverages Django, a high-level web framework for Python, to provide a user-friendly interface for interacting with our machine learning model. Users can now make predictions using the model through a web application, without needing to write any code.
+  Our deployed project leverages Django, a high-level web framework for Python, to provide a user-friendly interface for interacting with our machine-learning model. Users can now make predictions using the model through a web application, without needing to write any code.
 
 With this deployment, we aim to democratize access to machine learning technology, empowering users from various backgrounds to harness the power of predictive analytics for their specific use cases. We have ensured that our deployed project is robust, scalable, and secure, providing a seamless experience for users while maintaining data privacy and integrity.
 
@@ -233,7 +216,7 @@ Thank you for joining us on this journey from development to deployment. We're e
     
 </div>
 
-# Contribution {#contribution}
+# Contribution 
 
 <div style="text-align: center;">
   <ol>
