@@ -49,7 +49,7 @@
 </div>
 
 <div style="align: center;">
-    <img src="  ">
+    <img src="Dataset.JPG ">
 </div>
 
 # Data Preprocessing {#data-preprocessing}
@@ -77,8 +77,12 @@
   <li>Data types: <strong>float64(7), object(4)</strong></li>
   <li>Memory usage: <strong>7.8 MB</strong></li>
 </ul>
-
 </div>
+
+<div style="align: center;">
+    <img src="Dataset after preprocessing.JPG ">
+</div>
+
 
 # Exploratory Data Analysis (EDA) {#eda}
 
@@ -97,6 +101,12 @@
 </ol>
 
 <p>These visualizations provide insights into how different variables interact with each other and their potential impact on the target variable.</p>
+
+</div>
+
+<div style="align: center;">
+    <img src="EDA.JPG ">
+    <img src="EDA 2.JPG ">
 
 </div>
 
