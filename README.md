@@ -16,10 +16,9 @@
 | [Model Building](#model-building)                     | Details about building the model          |
 | [Machine Learning Pipelines Building](#ml-pipelines)  | Development of ML pipelines               |
 | [Deployment of Project](#deployment)                  | Process of deploying the project          |
-| [Django](#django)                                     | Introduction to Django framework          |
 | [Contribution](#contribution)                         | Individual contributions to the project   |
 
-# Project Description {:#project-description}
+# Project Description {#project-description}
 
 <div style="text-align: center;">
   <p align="justify">
