@@ -2,7 +2,7 @@
 </div>
  Our project aims to analyze the financial circumstances of companies and their fundraising objectives.
 
- <div style="text-align: center;">
+<div style="text-align: center;">
   <h1>Table of Contents</h1>
  </div>
 
@@ -25,6 +25,7 @@
   <p align="justify">
     The project aims to predict the acquisition status of startups based on various features such as funding rounds, total funding amount, industry category, and geographic location. The objective is to develop a machine learning model that accurately classifies startups into different acquisition status categories, including Operating, IPO, Acquired, or closed. This problem will be addressed using a Supervised Machine Learning approach by training a model based on the historical data of startups that were either acquired or closed. By leveraging machine learning pipelines, we preprocess the data, select relevant features, and train models to classify startups into different acquisition status categories. The project utilizes Python libraries such as scikit-learn, pandas, matplotlib, seaborn, joblib, and XGBoost for model development and evaluation. The goal is to provide insights into the factors influencing startup acquisition and build a predictive tool that can assist stakeholders in making informed decisions.
 </div>
+
 
 # Dataset {#dataset}
 
