@@ -8,7 +8,7 @@
 
 | Section                                               | Description                               |
 |-------------------------------------------------------|-------------------------------------------|
-| [Project Description] (#project-description)           | Overview of the project                   |
+| [Project Description](#project-description)           | Overview of the project                   |
 | [Dataset](#dataset)                                   | Description of the dataset used           |
 | [Data Preprocessing](#data-preprocessing)             | Steps taken to preprocess the data        |
 | [Exploratory Data Analysis (EDA)](#eda)               | Exploration and analysis of the data      |
