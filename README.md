@@ -9,6 +9,36 @@
     The project aims to predict the acquisition status of startups based on various features such as funding rounds, total funding amount, industry category, and geographic location. The objective is to develop a machine learning model that accurately classifies startups into different acquisition status categories, including Operating, IPO, Acquired, or closed. This problem will be addressed using a Supervised Machine Learning approach by training a model based on the historical data of startups that were either acquired or closed. By leveraging machine learning pipelines, we preprocess the data, select relevant features, and train models to classify startups into different acquisition status categories. The project utilizes Python libraries such as scikit-learn, pandas, matplotlib, seaborn, joblib, and XGBoost for model development and evaluation. The goal is to provide insights into the factors influencing startup acquisition and build a predictive tool that can assist stakeholders in making informed decisions.
 </div>
 
+# Software Development Life Cycle (SDLC) Model
+
+## Agile Approach
+
+Our project follows the Agile Software Development Life Cycle (SDLC) model, which is well-suited for iterative and collaborative projects like machine learning development. The Agile approach emphasizes flexibility, adaptability, and customer collaboration throughout the project lifecycle. Here's how we applied Agile principles in our project:
+
+1. **Iterative Development**: We embraced iterative development cycles to continuously refine and improve our machine learning models based on feedback and new insights gained during each iteration.
+
+2. **Collaboration and Communication**: Agile principles encouraged regular collaboration and communication among team members, enabling effective management of the project's complexity and ensuring alignment with stakeholders' expectations.
+
+3. **Adaptability to Change**: Agile's adaptive approach allowed us to respond quickly to changes in project requirements, data characteristics, and model performance, ensuring that our solutions remained relevant and effective.
+
+4. **Instructor Feedback**: We actively sought feedback from our mentor and incorporated it into our development process, ensuring that our machine learning models met their needs and expectations.
+
+5. **Continuous Improvement**: Agile principles fostered a culture of continuous improvement, prompting us to regularly reflect on our processes and outcomes, identify areas for enhancement, and implement changes to deliver higher-quality solutions.
+
+By following the Agile SDLC model, we effectively managed the complexity and uncertainty inherent in machine learning projects, delivering valuable and robust solutions to predict startup acquisition status.
+
+## Implementation of Agile Practices
+
+Throughout the project, we implemented various Agile practices, including:
+
+- **Sprint Planning**: We conducted regular sprint planning sessions to define the scope of work for each iteration and prioritize tasks based on their importance and complexity.
+- **Daily Stand-up Meetings**: We held daily stand-up meetings to discuss progress, identify obstacles, and coordinate efforts among team members.
+- **Continuous Integration and Deployment**: We employed continuous integration and deployment practices to ensure that changes to our machine learning models were integrated smoothly and deployed efficiently.
+- **Iterative Testing**: We performed iterative testing throughout the development process to validate the functionality and performance of our models and identify any issues early on.
+
+Through the effective implementation of Agile practices, we were able to deliver a high-quality machine learning solution that met our project objectives and exceeded stakeholders' expectations.
+
+
 ## Flow Chart
 <div style="align: center;">
     <img src="FDP.png ">
