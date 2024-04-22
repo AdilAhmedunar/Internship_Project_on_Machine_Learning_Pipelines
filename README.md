@@ -173,30 +173,83 @@
 
 # Deployment of Project - Django 
 <div style="text-align: center;">
-  <p align="justify"> 
-  Our deployed project leverages Django, a high-level web framework for Python, to provide a user-friendly interface for interacting with our machine-learning model. Users can now make predictions using the model through a web application, without needing to write any code.
+  <p align="justify">   
+Our deployed project leverages Django, a high-level web framework for Python, to provide a user-friendly interface for interacting with our machine-learning model. Users can now make predictions using the model through a web application, without needing to write any code.
 
-    With this deployment, we aim to democratize access to machine learning technology, empowering users from various backgrounds to harness the power of predictive analytics for their specific use cases. We have ensured that our deployed project is robust, scalable, and secure, providing a seamless experience for users while maintaining data privacy and integrity.
+With this deployment, we aim to democratize access to machine learning technology, empowering users from various backgrounds to harness the power of predictive analytics for their specific use cases. We have ensured that our deployed project is robust, scalable, and secure, providing a seamless experience for users while maintaining data privacy and integrity.
 
 Thank you for joining us on this journey from development to deployment. We're excited to see how our project will impact the world of machine learning and beyond.
 </div>
 
-# Contribution 
+# Contributions of the Team 
 <div style="text-align: center;">
-  <ol>
-    <li><strong>Adil Ahmed Unar:</strong> Data Preprocessing, EDA, Feature Engineering, Model Training of Decision Trees (Binary) and XGBoost (Multiclass), and Report of the Project</li>
-    <li><strong>Ashrith Komuravelly:</strong> Data Preprocessing, EDA, Feature Engineering, Model Training of Decision Trees (Binary) and Random Forest (Multiclass)</li>
-    <li><strong>B Kartheek:</strong> Data Preprocessing, EDA, Feature Engineering, Model Training of Decision Trees (Binary) and Multinomial Naïve Bayes (Multiclass)</li>
-    <li><strong>Charulatha:</strong> Data Preprocessing, EDA, Feature Engineering, Model Training of Support Vector Machines (Binary) and Gradient Boosting (Multiclass)</li>
-    <li><strong>Mayuri Sonawane:</strong> Data Preprocessing, EDA, Feature Engineering, Model Training of Support Vector Machines (Binary) and Random Forest (Multiclass)</li>
-    <li><strong>Pratik Santosh Akole:</strong> Data Preprocessing, EDA, Feature Engineering, Model Training of Decision Trees (Binary) and XGBoost (Multiclass)</li>
-    <li><strong>Shata Rupendra:</strong> Data Preprocessing, EDA, Feature Engineering, Model Training of Support Vector Machines (Binary) and Gradient Boosting (Multiclass)</li>
-    <li><strong>Vaibhavi Vijay:</strong> Data Preprocessing, EDA, Feature Engineering, Model Training of Support Vector Machines (Binary) and Multinomial Naïve Bayes (Multiclass)</li>
-  </ol>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Assigned Models</th>
+        <th>Contribution</th>
+        <th>Report</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Adil Ahmed Unar</td>
+        <td>Decision Trees (Binary) and XGBoost (Multiclass)</td>
+        <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>Ashrith Komuravelly</td>
+        <td>Decision Trees (Binary) and Random Forest (Multiclass)</td>
+        <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>B Kartheek</td>
+        <td>Decision Trees (Binary) and Multinomial Naïve Bayes (Multiclass)</td>
+        <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Charulatha</td>
+        <td>Support Vector Machines (Binary) and Gradient Boosting (Multiclass)</td>
+        <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Mayuri Sonawane</td>
+        <td>Support Vector Machines (Binary) and Random Forest (Multiclass)</td>
+        <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Pratik Santosh Akole</td>
+        <td>Decision Trees (Binary) and XGBoost (Multiclass)</td>
+        <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Shata Rupendra</td>
+        <td>Support Vector Machines (Binary) and Gradient Boosting (Multiclass)</td>
+        <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Vaibhavi Vijay</td>
+        <td>Support Vector Machines (Binary) and Multinomial Naïve Bayes (Multiclass)</td>
+        <td>Data Preprocessing, EDA, Feature Engineering, Model Training</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-
-
-
+<div style="text-align: center;">
+  <p>
+    For the latest updates and contributions, please visit our GitHub repository:
+    <a href="https://github.com/yourusername/yourrepository" target="_blank">Your Repository</a>
+  </p>
+</div>
 
 
 
