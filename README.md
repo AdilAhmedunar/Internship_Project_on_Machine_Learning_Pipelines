@@ -236,7 +236,18 @@ Thank you for joining us on this journey from development to deployment. We're e
 # Contribution {#contribution}
 
 <div style="text-align: center;">
-  <p align="justify"> 
+  <ol>
+  <li> Adil Ahmed Unar : Implemented feature X</li>
+  <li> Ashrith Komuravelly : Fixed bug Y</li>
+  <li> B Kartheek : Updated documentation</li>
+  <li> Charulatha: Updated documentation</li>
+  <li> Mayuri Sonawane : Updated documentation</li>
+  <li> Pratik Santosh Akole: Updated documentation</li>
+  <li> Shata Rupendra: Updated documentation</li>
+  <li> Vaibhavi Vijay: Updated documentation</li>
+</ol>
+
+
     
 </div>
 
