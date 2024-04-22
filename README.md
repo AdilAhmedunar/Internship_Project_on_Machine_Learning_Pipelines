@@ -1,4 +1,3 @@
-<div style="text-align: center;">
   <h1>Startup Acquisition Status Modeling Using Machine Learning Pipelines</h1>
 </div>
  Our project aims to analyze the financial circumstances of companies and their fundraising objectives.
@@ -136,6 +135,10 @@
 <p>We computed mutual information between features and the target variable to identify top-ranked features for model training.</p>
 
 <p>After conducting comprehensive feature engineering, our dataset <code>comp_df</code> has undergone significant transformations. Initially containing 11 columns consisting of 3 categorical variables and 8 numerical variables, it has now expanded to encompass 32 columns while maintaining its original 4682 rows. All variables within <code>comp_df</code> have been converted to numerical format, making them suitable for analytical operations. Our DataFrame is ready to embark on the next phase of model construction with confidence.</p>  
+</div>
+
+<div style="align: center;">
+    <img src="FE.JPG ">
 </div>
 
 # Model Building {#model-building}
