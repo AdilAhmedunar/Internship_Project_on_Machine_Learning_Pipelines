@@ -247,7 +247,7 @@ Thank you for joining us on this journey from development to deployment. We're e
 <div style="text-align: center;">
   <p>
     For the latest updates and contributions, please visit our GitHub repository:
-    <a href="https://github.com/yourusername/yourrepository" target="_blank">Your Repository</a>
+    <a href="https://github.com/AdilAhmedunar" target="_blank">Your Repository</a>
   </p>
 </div>
 
