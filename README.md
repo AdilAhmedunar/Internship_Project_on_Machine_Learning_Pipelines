@@ -48,6 +48,10 @@
 <p>This dataset serves as the foundation for building the machine learning model to predict the acquisition status of startups based on various features.</p>
 </div>
 
+<div style="align: center;">
+    <img src="  ">
+</div>
+
 # Data Preprocessing {#data-preprocessing}
 
 <div style="text-align: center;">
