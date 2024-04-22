@@ -237,14 +237,14 @@ Thank you for joining us on this journey from development to deployment. We're e
 
 <div style="text-align: center;">
   <ol>
-  <li> Adil Ahmed Unar : Implemented feature X</li>
-  <li> Ashrith Komuravelly : Fixed bug Y</li>
-  <li> B Kartheek : Updated documentation</li>
-  <li> Charulatha: Updated documentation</li>
-  <li> Mayuri Sonawane : Updated documentation</li>
-  <li> Pratik Santosh Akole: Updated documentation</li>
-  <li> Shata Rupendra: Updated documentation</li>
-  <li> Vaibhavi Vijay: Updated documentation</li>
+  <li> Adil Ahmed Unar : Data Preprocessing, EDA, Feature Engineering, Model Training of Decision Trees (Binary) and XGBoost (Multiclass), and Report of the Project </li>
+  <li> Ashrith Komuravelly : Data Preprocessing, EDA, Feature Engineering, Model Training of Decision Trees (Binary) and Random Forest (Multiclass)</li>
+  <li> B Kartheek : Data Preprocessing, EDA, Feature Engineering, Model Training of Decision Trees (Binary) and Multinomial Naïve Bayes (Multiclass)</li>
+  <li> Charulatha:  Data Preprocessing, EDA, Feature Engineering, Model Training of Support Vector Machines (Binary) and Gradient Boosting (Multiclass)</li>
+  <li> Mayuri Sonawane : Data Preprocessing, EDA, Feature Engineering, Model Training of Support Vector Machines (Binary) and Random Forest (Multiclass)</</li>
+  <li> Pratik Santosh Akole: Data Preprocessing, EDA, Feature Engineering, Model Training of Decision Trees (Binary) and XGBoost (Multiclass)</</li>
+  <li> Shata Rupendra: Data Preprocessing, EDA, Feature Engineering, Model Training of Support Vector Machines (Binary) and Gradient Boosting (Multiclass)</</li>
+  <li> Vaibhavi Vijay: Data Preprocessing, EDA, Feature Engineering, Model Training of Support Vector Machines (Binary) andMultinomial Naïve Bayes (Multiclass)</</li>
 </ol>
 
 
